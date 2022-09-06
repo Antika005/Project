@@ -1,0 +1,10 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "config";
+@import "variables";
+@import "mixin";
+@import "utilites";
+
+@import "category_section";
+@import "_product_sections.scss";
+@import "_review_section.scss" ;

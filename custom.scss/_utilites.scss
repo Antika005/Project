@@ -1,0 +1,78 @@
+.text {
+  &-purple-dark {
+    color: $purple-dark;
+  }
+  &-carot-red {
+    color: $carot-red;
+  }
+  &-review-color {
+    color: $review-cold;
+  }
+  &-angular-color {
+    color: $angular-color;
+  }
+  &-html-color {
+    color: $html-color;
+  }
+  &-css-color {
+    color: $css-color;
+  }
+  &-js-color {
+    color: $js-color;
+  }
+  &-bs-color {
+    color: $bs-color;
+  }
+  &-sass-color {
+    color: $sass-color;
+  }
+  &-ts-color {
+    color: $ts-color;
+  }
+  &-http-color {
+    color: $http-color;
+  }
+  &-vue-color {
+    color: $vue-color;
+  }
+  &-mongoDB-color {
+    color: $mongoDB-color;
+  }
+  &-nodeJs-color {
+    color: $nodeJs-color;
+  }
+  &-npm-color {
+    color: $npm-color;
+  }
+  &-react-color {
+    color: $react-color;
+  }
+  &-golden-color {
+    color: $golden-color;
+  }
+}
+
+.bg {
+  &-purple-dark {
+    background-color: $purple-dark;
+  }
+  &-purple-dark-20 {
+    background-color: darken($purple-dark, 5%);
+  }
+  &-carot-red {
+    background-color: $carot-red;
+  }
+}
+
+#dropdown1 {
+  display: none;
+}
+#dropdown2 {
+  display: none;
+}
+#dropdowncat:hover > ul {
+  display: block;
+}
+#dropdownpro:hover > ul {
+  display: block;
+}

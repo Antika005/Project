@@ -1,0 +1,41 @@
+#Product-gallery {
+  .product {
+    &:hover {
+      cursor: pointer;
+      & img {
+        position: relative;
+        opacity: 0.5;
+        transition: all, 0.3s, ease;
+      }
+    }
+  }
+  .offcanvas {
+    .btn-danger {
+      &:hover {
+        @extend .btn-success !optional;
+      }
+      &:active {
+        & + i {
+          color: $success !important;
+          box-shadow: 0 1px 2px 2px #666;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 1400px) {
+    .offcanvas {
+      width: 35vw;
+    }
+  }
+  @media screen and (max-width: 1400px) {
+    .offcanvas {
+      width: 50vw;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .offcanvas {
+      width: 80vw;
+    }
+  }
+}
